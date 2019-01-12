@@ -1,6 +1,30 @@
 1.rop32  
 常规做法是找gadgets（pop rax，ret这种）来调用execve
 
+先用 ldd 程序名 看是不是一个动态库
+不是  
+先把漏洞函数的返回地址变成read函数地址，  
+然后读取/bin/sh，把它放到一个可读可写的内存区里  
+然后在返回main函数重来，把这里地址里的/bin/sh填到execve要的参数寄存器里，其他寄存器就找gadget为“pop 寄存器，ret”的来代替。   
+然后找int 0x80
+python
+>>>elf = ELF("./rop32")
+>>>map(hex,list(elf.search(asm("int 0x80",arch="i386"))))
+将会返回程序中所有又int 0x80的位置，拿着位置去ida里看，只有在nt 0x80后还有一个ret的才是可以使用的。
+
+如果是一个动态的库，在libc的库里找/bin/sh，基地址是动态的，但是偏移量是固定的，  
+先在ida里找到read（）点过去的，jump table的地址（plt表），本地运行，x/查看这个地址里的一个地址，是read的地址  
+然后用read的地址减去libc的地址这个地址是本地地址，就得到偏移量
+然后找到bin/sh在libc中的偏移量
+python
+>>>elf = ELF("./rop32")
+>>>elf.search("/bin/sh"))
+>>>next(elf.search("/bin/sh")))
+得到偏移量
+*下面有更简单的直接得到各种地址的方式
+
+
+
 parallels@parallels-vm:~/Documents$ checksec rop32
 [*] '/home/parallels/Documents/rop32'
     Arch:     i386-32-little
