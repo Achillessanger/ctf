@@ -221,3 +221,5 @@ cyberpeace{edaa0b9311a29dd3bfbf176adcb61e53}
 ```
 
 p.s `%23`为`#`的url编码
+
+https://gist.github.com/kentfredric/8f6ed343f4a16a34b08a
