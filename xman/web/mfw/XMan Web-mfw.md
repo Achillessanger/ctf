@@ -8,7 +8,7 @@
 
 
 
-![img](https:////upload-images.jianshu.io/upload_images/10148719-fa13e01ee3cb7eef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/493/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/10148719-fa13e01ee3cb7eef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/493/format/webp)
 
 image.png
 
@@ -20,7 +20,7 @@ image.png
 
 
 
-![img](https:////upload-images.jianshu.io/upload_images/10148719-aebb660b0ea56299.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/10148719-aebb660b0ea56299.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600/format/webp)
 
 image.png
 
@@ -30,7 +30,7 @@ image.png
 
 
 
-![img](https:////upload-images.jianshu.io/upload_images/10148719-726ff091784a3cd6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/737/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/10148719-726ff091784a3cd6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/737/format/webp)
 
 
 
@@ -42,7 +42,7 @@ image.png
 
 
 
-![img](https:////upload-images.jianshu.io/upload_images/10148719-981c9e67174c1c70.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/733/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/10148719-981c9e67174c1c70.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/733/format/webp)
 
 
 
@@ -51,7 +51,7 @@ image.png
 
 
 
-![img](https:////upload-images.jianshu.io/upload_images/10148719-af36984307dc5e63.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/276/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/10148719-af36984307dc5e63.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/276/format/webp)
 
 
 
@@ -94,7 +94,7 @@ $file =templates/ abc') or system("cat templates/flag.php");// ".php"
 
 
 
-![img](https:////upload-images.jianshu.io/upload_images/10148719-9fec8909c4296d17.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/768/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/10148719-9fec8909c4296d17.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/768/format/webp)
 
 
 
