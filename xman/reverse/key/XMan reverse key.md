@@ -1,5 +1,5 @@
 ---
-typora-root-url: D:\College\ctf\ctf\xman\reverse\key
+typora-root-url: ./
 ---
 
 ## XMan reverse key
@@ -21,21 +21,21 @@ typora-root-url: D:\College\ctf\ctf\xman\reverse\key
 
 v7是倒数第二个变量v12，this是第一个变量&v37
 
-![3](/3.PNG)
+![3](3.PNG)
 
 v12直接由Memory赋值，v37由Dst来，Dst进一步上溯，发现是读取的文件的内容
 
-![5](/5.PNG)
+![5](5.PNG)
 
 所以如果需要运行该程序，需要在这个路径下有一个flag.txt文件。
 
 再来看Memory的值，发现Memory变量由某个值初始化，然后经过两次加密
 
-![6](/6.PNG)
+![6](6.PNG)
 
 Memory和&v43初始化内容为：
 
-![7](/7.PNG)
+![7](7.PNG)
 
 进去看一下sub_4021E0这个函数是做什么的。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190526171534845.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxNjY3Mjgy,size_16,color_FFFFFF,t_70)
@@ -62,5 +62,5 @@ print(flag)
 
 ![img](https://img-blog.csdnimg.cn/2019042420142335.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxMDcxNjQ2,size_16,color_FFFFFF,t_70)
 
-![8](/../../../../../../../8.png)
+![8](8.png)
 
