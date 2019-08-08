@@ -29,8 +29,10 @@
 >.text:00401020
 >.text:00401020 ; int cdecl sub_401020(char *)
 >.text:00401020 sub_401020  proc near   ; CODE XREF: sub_401005
+
 >.text:00401020 
->.text:00401020 var_4C  = byte ptr -4Ch      IDA提供的一个摘要栈视图，列出栈帧内被直接引用的每一个变量，以及大小与帧指针的偏移量
+
+>.text:00401020 var_4C  = byte ptr -4Ch      //IDA提供的一个摘要栈视图，列出栈帧内被直接引用的每一个变量，以及大小与帧指针的偏移量
 >.text:00401020 var_C   = byte ptr -0Ch         // `var_`为局部变量名称的前缀，后面表示变量与被保存的帧指针之间距离
 >.text:00401020 var_4   = dword ptr -4
 >.text:00401020 arg_0   = dword ptr  8         // 函数参数名以`arg_`为前缀，后面表示与最顶端参数之间的相对距离(十六进制)
