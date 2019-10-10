@@ -47,3 +47,5 @@ Show功能无效
 从free函数分析来看，首先未判断free的块号是否为负，可能存在释放后再申请内存不缺定的情况，可能分配到关键地方。
 
  
+
+https://www.cnblogs.com/xingzherufeng/p/9885860.html
